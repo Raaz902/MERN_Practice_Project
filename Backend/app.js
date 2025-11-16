@@ -162,4 +162,7 @@ function greet(name) {
 function greetIn_Russian(name) {
     return `привет, ${name}!`;
 }
-module.exports = { greet, greetIn_Russian };
+function greetIn_Russian2(name) {
+    return `привет, ${name}!`;
+}
+module.exports = { greet, greetIn_Russian, greetIn_Russian2 };
