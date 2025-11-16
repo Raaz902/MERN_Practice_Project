@@ -165,4 +165,7 @@ function greetIn_Russian(name) {
 function greetIn_Russian2(name) {
     return `привет, ${name}!`;
 }
-module.exports = { greet, greetIn_Russian, greetIn_Russian2 };
+function designBranchFn(name) {
+    return `привет, ${name}!`;
+}
+module.exports = { greet, greetIn_Russian, greetIn_Russian2, designBranchFn };
