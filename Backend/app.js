@@ -174,4 +174,10 @@ function designBranchFn2(name) {
 function designBranchFn3(name) {
     return `привет, ${name}!`;
 }
-module.exports = { greet, greetIn_Russian, greetIn_Russian2, designBranchFn, designBranchFn2, designBranchFn3 };
+
+
+// merge conflict test
+function designBranchFn4(name) {
+    return `привет, ${name}!`;
+}
+module.exports = { greet, greetIn_Russian, greetIn_Russian2, designBranchFn, designBranchFn2, designBranchFn3, designBranchFn4 };
